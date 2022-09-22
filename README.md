@@ -1,4 +1,5 @@
-Article Title: A compartative
+Article Title: A comparative analysis between machine learning
+models applied to stock market forecasting
 
 Universidade de Brasília
 Departamento de Ciêencia da Computação
