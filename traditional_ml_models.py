@@ -1,11 +1,14 @@
 
 import pandas as pd
 from sklearn.model_selection import train_test_split
-
+import opendatasets as od
 from classes import Train, Test, BagOfWords, Models
 def main():
     # %% Loading the dataset
-    df_raw = pd.read_csv("Datasets/Stock Headlines.csv", encoding='ISO-8859-1')
+    # df_raw = pd.read_csv("Datasets/Stock Headlines.csv", encoding='ISO-8859-1')
+    
+    od.download("https://www.kaggle.com/datasets/lykin22/stock-headlines")
+    df_raw = pd.read_csv('/content/stock-headlines/Stock Headlines.csv', encoding='ISO-8859-1')
     df = df_raw.copy()
     df.dropna(inplace=True)
     df.reset_index(inplace=True)
