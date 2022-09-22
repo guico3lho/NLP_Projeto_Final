@@ -2,6 +2,7 @@ Article Title: A comparative analysis between machine learning
 models applied to stock market forecasting
 
 Nome: Guilherme Coelho Minervino
+
 Matricula: 160123046
 
 Universidade de Brasília
