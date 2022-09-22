@@ -62,7 +62,7 @@ def main():
     model.score()
     model.k_neighbors()
     model.score()
-    6
+ 
 if __name__ == '__main__':
     main()
 
